@@ -1,0 +1,147 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html body{
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+
+}
+
+.one{
+  height: 100vh;
+  width: 100%;
+  background-color: #3A3B3F;
+ background-image: url(https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: left;
+}
+
+.nav{
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  background-color: #faf7f715;
+  border-bottom: 1px solid grey;
+}
+.logo h1{
+  font-size: 1.5vw;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-bottom: 4px solid brown;
+}
+
+.menu a {
+text-decoration: none;
+color: #000;
+font-size: 1vw;
+/* letter-spacing: -1px; */
+font-weight: 700;
+padding: 0px 20px;
+text-transform: uppercase;
+color: #fff;
+}
+.menu :nth-child(1){
+  color: brown;
+}
+.menu button{
+  font-size: 1vw;
+  padding: 10px 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 10px;
+  background-color: brown;
+  color: #fff;
+}
+
+.content{
+  width: 100%;
+  height: calc(100% - 75px);
+  /* height: 100%; */
+  background-color: #faf7f715;
+  display: flex;
+}
+.left{
+  height: 100%;
+  width: 50%;
+  background-color: #faf7f715;
+  position: relative;
+}
+.left h1{
+  /* text-align: center; */
+  font-size: 3vw;
+  letter-spacing: 3px;
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.content p{
+  font-size: 1.5vw;
+  color: #ffffff7a;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+}
+.content button{
+  font-size: 1.5vw;
+  padding: 8px 15px;
+  border: none;
+  background-color: brown;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  position: absolute;
+  top: 55%;
+  left: 40%;
+}
+.right{
+  height: 100%;
+  width: 50%;
+  background-color:rgba(0, 0, 0, 0.395);
+  position: relative;
+}
+.login{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  height: 70%;
+  width: 70%;
+  border-radius: 10%;
+  background-color: #faf7f715;
+}
+.two{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(183, 206, 10);
+}
+
+.three{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(16, 100, 173);
+}
+
+.four{
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.five{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(6, 164, 35);
+}
