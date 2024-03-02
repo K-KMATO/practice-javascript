@@ -114,13 +114,32 @@ color: #fff;
   position: relative;
 }
 .login{
-  position: absolute;
+  position: relative;
   top: 15%;
   left: 15%;
   height: 70%;
   width: 70%;
   border-radius: 10%;
   background-color: #faf7f715;
+}
+.logTop{
+height: 100px;
+width: 100%;
+/* background-color: red; */
+border-bottom: 1px solid grey;
+}
+.logTop h1{
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.5vw;
+  padding-top: 30px;
+  letter-spacing: 1px;
+}
+.logBottom{
+ height: calc(100% - 100px);
+ width: 100% ;
+ /* background-color: black; */
 }
 .two{
   height: 100vh;
